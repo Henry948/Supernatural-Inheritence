@@ -21,5 +21,16 @@ namespace MagicalInheritance
             IsStrong = isStrong;
             Caster = caster;
         }
+
+        // Public announce method to return a string printing the values stored in the above properties
+        public string Announce()
+        {
+            if (IsStrong)
+            {
+                return $"{Caster} cast a strong {Essence} storm!";
+            }  else {
+                return $"{Caster} cast a weak {Essence} storm!";
+            }
+        }
     }
 }
