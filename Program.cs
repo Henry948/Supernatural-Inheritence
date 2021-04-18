@@ -13,6 +13,10 @@ namespace MagicalInheritance
       Pupil p = new Pupil("Mezil-kree");
       Storm windStorm = p.CastWindStorm();
       Console.WriteLine(windStorm.Announce());
+
+      Mage m = new Mage("Gul’dan");
+      Storm rainStorm = m.CastRainStorm();
+      Console.WriteLine(rainStorm.Announce());
     }
   }
 }
