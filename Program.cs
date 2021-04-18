@@ -9,6 +9,10 @@ namespace MagicalInheritance
       Storm s = new Storm("wind", false, "Zul'rajas");
 
       Console.WriteLine(s.Announce());
+
+      Pupil p = new Pupil("Mezil-kree");
+      Storm windStorm = p.CastWindStorm();
+      Console.WriteLine(windStorm.Announce());
     }
   }
 }
