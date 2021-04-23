@@ -2,16 +2,16 @@ using System;
 
 namespace MagicalInheritance
 {
-    class Storm
+    class Storm : Spell
     {
 
         // Automatic Properties
-        public string Essence
-        { get; private set; }
-        public bool IsStrong
-        { get; private set; }
-        public string Caster
-        { get; private set; }
+        // public string Essence
+        // { get; private set; }
+        // public bool IsStrong
+        // { get; private set; }
+        // public string Caster
+        // { get; private set; }
 
 
         // Constructor defining the automatic properties
@@ -23,7 +23,7 @@ namespace MagicalInheritance
         }
 
         // Public announce method to return a string printing the values stored in the above properties
-        public string Announce()
+        public override string Announce()
         {
             if (IsStrong)
             {
