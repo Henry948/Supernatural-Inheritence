@@ -2,7 +2,7 @@ using System;
 
 namespace MagicalInheritance
 {
-  class Program
+  static class Program
   {
     static void Main(string[] args)
     {
