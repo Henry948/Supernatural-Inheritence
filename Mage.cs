@@ -8,7 +8,7 @@ namespace MagicalInheritance
     {
 
     }
-    public Storm CastRainStorm()
+    public virtual Storm CastRainStorm()
     {
         return new Storm("rain", false, Title);
     }

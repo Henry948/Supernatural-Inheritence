@@ -6,17 +6,19 @@ namespace MagicalInheritance
   {
     static void Main(string[] args)
     {
-      Storm s = new Storm("wind", false, "Zul'rajas");
+        Pupil p = new Pupil("Mezil-kree");
+        Storm windstorm = p.CastWindStorm();
+        Console.WriteLine(windstorm.Announce());
 
-      Console.WriteLine(s.Announce());
+        Mage m = new Mage("Gul'dan");
+        Storm rainStorm = m.CastRainStorm();
+        Console.WriteLine(rainStorm.Announce());
 
-      Pupil p = new Pupil("Mezil-kree");
-      Storm windStorm = p.CastWindStorm();
-      Console.WriteLine(windStorm.Announce());
-
-      Mage m = new Mage("Gul’dan");
-      Storm rainStorm = m.CastRainStorm();
-      Console.WriteLine(rainStorm.Announce());
+        Archmage a = new Archmage("Nielas Aran");
+        Storm archmageRainStorm = a.CastRainStorm();
+        Storm archmageLightningStorm = a.CastLightningStorm();
+        Console.WriteLine(archmageLightningStorm.Announce());
+        Console.WriteLine(archmageRainStorm.Announce());
     }
   }
 }
