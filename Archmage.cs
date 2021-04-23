@@ -4,7 +4,11 @@ namespace MagicalInheritance
 {
     class Archmage : Mage
     {
-        public Archmage(string Title) : base(Title)
+        public Archmage(string title) : base(title)
+        {
+        }
+
+        public Archmage(string title, string origin) : base(title, origin)
         {
         }
         public override Storm CastRainStorm()

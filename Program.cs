@@ -10,17 +10,23 @@ namespace MagicalInheritance
         Storm[] storms = new Storm[10];
         int stormsIndex = 0;
 
-        Pupil p = new Pupil("Mezil-kree");
+        Pupil p = new Pupil("Mezil-kree", "Icecrown");
+        Console.WriteLine(p.Origin);
 
         storms[stormsIndex] = p.CastWindStorm();
         stormsIndex++;
 
-        Mage m = new Mage("Gul'dan");
+        Mage m = new Mage("Gul'dan", "Draenor");
+        Console.WriteLine(m.Origin);
 
         storms[stormsIndex] = m.CastRainStorm();
         stormsIndex++;
 
-        Archmage a = new Archmage("Nielas Aran");
+        Archmage a = new Archmage("Nielas Aran", "Stormwind");
+        Console.WriteLine(a.Origin);
+
+        storms[stormsIndex] = a.CastWindStorm();
+        stormsIndex++;
 
         storms[stormsIndex] = a.CastRainStorm();
         stormsIndex++;
