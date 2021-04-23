@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj": {}
+    "c:\\Users\\User23\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj": {
+    "c:\\Users\\User23\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj",
+        "projectUniqueName": "c:\\Users\\User23\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj",
         "projectName": "MagicalInhertence",
-        "projectPath": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj",
-        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Supernatural-Inheritence\\obj\\",
+        "projectPath": "c:\\Users\\User23\\Documents\\GitHub\\Supernatural-Inheritence\\MagicalInhertence.csproj",
+        "packagesPath": "C:\\Users\\User23\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\User23\\Documents\\GitHub\\Supernatural-Inheritence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User23\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
